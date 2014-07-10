@@ -10,3 +10,10 @@
 >
 > Then you can download very useful pdf by Adobe [help.adobe.com/en_US/extensionmanager/cs/using/MXI_tech_note.pdf](MXI_tech_note.pdf), to have detailed/ advance knowledge for the matter!
 > You may also want to have a look inside the mxi samples folder provided by Adobe (I don't have the link so I put the folder in this repo!)
+> 
+> 
+> 
+> 
+> ======================================
+> ### Where to ask your questions?!
+> [Here!](https://forums.adobe.com/community/creative_cloud/add-ons)
