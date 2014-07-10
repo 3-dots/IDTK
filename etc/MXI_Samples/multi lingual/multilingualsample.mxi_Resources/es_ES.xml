@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd">
+<asf xmlns="http://ns.adobe.com/asf" locale="en_US" version="1.0">
+	<set name="DefaultSet">
+		<str name="name">
+			<val>Name in es_ES</val>
+		</str>
+		<str name="author">
+			<val>Name in es_ES</val>
+		</str>
+		<str name="desc">
+            <val>
+                <![CDATA[
+                    Description in es_ES. Localized description could be shown here.
+	                <br>Refer to Extension developer documentation for more infomation.<br>
+                ]]>
+            </val>
+        </str>
+		<str name="ui-access">
+			<val>
+                <![CDATA[
+                    Ui-access in es_ES. Localized ui-access could be shown here.
+                    <br>Access this extension by "Commands->Menu in es(ES)" in Dreamweaver.
+                ]]>
+            </val>
+		</str>
+		<str name="license-agreement">
+			<val>
+                <![CDATA[
+                    License-agreement in es_ES. Localized license-agreement could be shown here.
+                ]]>
+            </val>
+		</str>
+        <str name="menu_name">
+            <val>Menu in es(ES)</val>
+        </str>
+	</set>
+</asf>

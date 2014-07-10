@@ -1,0 +1,34 @@
+﻿<macromedia-extension
+	 name="Menu Play"
+	 version="1.0.0"
+	 type="Command"
+   	 requires-restart="true">
+
+	<author name="Adobe" />
+
+	<products>
+		<product name="Illustrator" version="15" primary="true" />
+	</products>
+
+	<description>
+	<![CDATA[
+	This is a sample extension for Illustrator. 
+	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+	Once this extension is installed, Menu item Window>SDK>MenuPlay will be added. On disabling, Window>SDK will be removed from menu. 
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+	
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="MenuPlay.aip" destination="$plugin" shared="true" />
+	</files>
+</macromedia-extension>

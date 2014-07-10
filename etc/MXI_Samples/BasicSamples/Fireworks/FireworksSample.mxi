@@ -1,0 +1,38 @@
+<macromedia-extension
+	 name="Sample Extension"
+	 version="1.0.0"
+	 type="Command"
+	 mxiversion="2.0.0"
+	 xmanversion="2.0.0">
+
+	<author name="Adobe Systems, Inc." />
+
+	<products>
+		<product name="Fireworks" version="8" primary="true" />
+	</products>
+
+	<description>
+	<![CDATA[
+	Fireworks Test Extension...
+	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+		Fireworks Test Extension...
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+	
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="Sample Extension.jsf" destination="$fireworks/configuration/commands/" />
+	</files>
+
+	<configuration-changes>
+	</configuration-changes>
+</macromedia-extension>

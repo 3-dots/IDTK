@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Multilingual extension sample -->
+
+<!-- Display localized extension name by 'name_resid' in tag 'macromedia-extension'. -->
+<macromedia-extension
+	 name="Extension_Name"
+	 name_resid="name"
+	 version="1.0.0"
+	 ismultilingual="true">
+
+	<!-- Display localized author name by 'author_resid' in tag 'author'. -->
+    <author name="Author_Name" author_resid="author" />
+
+	<products>
+		<product name="Dreamweaver" version="10.0" primary="true" />
+	</products>
+
+	<!-- Display localized description by 'resid' in tag 'description'. -->
+    <description resid="desc">
+	<![CDATA[
+	Inline Description
+	]]>
+	</description>
+
+	<!-- Display localized ui-access by 'resid' in tag 'ui-access'. -->
+    <ui-access resid="ui-access">
+	<![CDATA[
+	Inline ui-access
+	]]>
+	</ui-access>
+
+	<!-- Display localized license-agreement by 'resid' in tag 'license-agreement'. -->
+    <license-agreement resid="license-agreement">
+	<![CDATA[
+	Inline license-agreement
+	]]>
+	</license-agreement>
+
+	<defaultLanguage>en_US</defaultLanguage>
+
+	<files>
+		<file source="multilingualsample.mxi_Resources" destination="$resourceroot" isresourcefile="true" />
+	</files>
+
+	<!-- Install different file with different lanugage by specifing 'xml:lang'. -->
+    <files xml:lang="en_US">
+		<file source="en_US/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+	</files>
+	
+	<files xml:lang="cs_CZ">
+		<file source="cs_CZ/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="da_DK">
+		    <file source="da_DK/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="de_DE">
+		    <file source="de_DE/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="es_ES">
+		    <file source="es_ES/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="fi_FI">
+		    <file source="fi_FI/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="fr_FR">
+		    <file source="fr_FR/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="hu_HU">
+		    <file source="hu_HU/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="it_IT">
+		    <file source="it_IT/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="ja_JP">
+		    <file source="ja_JP/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="ko_KR">
+		    <file source="ko_KR/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="nb_NO">
+		    <file source="nb_NO/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="nl_NL">
+		    <file source="nl_NL/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="pl_PL">
+		    <file source="pl_PL/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="pt_BR">
+		    <file source="pt_BR/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="ro_RO">
+		    <file source="ro_RO/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="ru_RU">
+		    <file source="ru_RU/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="sv_SE">
+		    <file source="sv_SE/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="tr_TR">
+		    <file source="tr_TR/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="uk_UA">
+		    <file source="uk_UA/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="zh_CN">
+		    <file source="zh_CN/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+    
+    <files xml:lang="zh_TW">
+		    <file source="zh_TW/multilingual.htm" destination="$dreamweaver/configuration/commands/multilingualexample/" />
+    </files>
+
+
+	<configuration-changes>
+	   <menu-insert appendTo="DWMenu_Commands">
+	        <!-- Show localized menu entry in Dreamweaver menu by specifing 'resid:name'. -->
+			<menuitem id="multilingualexample" name="menu inline name" file="commands/multilingualexample/multilingual.htm" resid:name="menu_name" />
+		</menu-insert>		
+	</configuration-changes>
+</macromedia-extension>

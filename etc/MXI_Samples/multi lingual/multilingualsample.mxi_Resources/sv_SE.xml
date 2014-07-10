@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd">
+<asf xmlns="http://ns.adobe.com/asf" locale="en_US" version="1.0">
+	<set name="DefaultSet">
+		<str name="name">
+			<val>Name in sv_SE</val>
+		</str>
+		<str name="author">
+			<val>Name in sv_SE</val>
+		</str>
+		<str name="desc">
+            <val>
+                <![CDATA[
+                    Description in sv_SE. Localized description could be shown here.
+	                <br>Refer to Extension developer documentation for more infomation.<br>
+                ]]>
+            </val>
+        </str>
+		<str name="ui-access">
+			<val>
+                <![CDATA[
+                    Ui-access in sv_SE. Localized ui-access could be shown here.
+                    <br>Access this extension by "Commands->Menu in sv(SE)" in Dreamweaver.
+                ]]>
+            </val>
+		</str>
+		<str name="license-agreement">
+			<val>
+                <![CDATA[
+                    License-agreement in sv_SE. Localized license-agreement could be shown here.
+                ]]>
+            </val>
+		</str>
+        <str name="menu_name">
+            <val>Menu in sv(SE)</val>
+        </str>
+	</set>
+</asf>

@@ -1,0 +1,39 @@
+﻿<macromedia-extension
+	name="Sample Button"
+	version="1.0"
+	type="Library">
+
+	<!-- Describe the author -->
+	
+	<author name="Adobe" />
+
+	<!-- List the required/compatible products -->
+	
+	<products>
+		<product name="Flash" version="9" primary="true" /> 
+	</products> 
+
+	<!-- Describe the extension -->
+	
+	<description>
+	<![CDATA[
+	This is a sample Exchange item.<br><br>
+	It is a sample library containing a single button.
+	]]>
+	</description>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+
+	<ui-access>
+	<![CDATA[
+	This item is accessed by choosing Window > Common Libraries > Sample.
+	]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	
+	<files>
+		<file name="Sample.fla" destination="$flash/Libraries" />
+	</files>
+
+</macromedia-extension>

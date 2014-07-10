@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<macromedia-extension
+	 name="Description Sample"
+	 version="1.0"
+	 icon="logo.png"
+	 >
+
+	<author name="YUI Team" />
+
+	<products>
+		<product name="Dreamweaver" version="9" primary="true" />
+	</products>
+
+	<update  />
+
+	 
+	<description
+	 source="description.html"
+	 >
+	<![CDATA[
+		This is where the plain text description would go if an html description was not provided in the source=attribute.	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+		Access from the 'Description Sample' entry in the Commands menu.
+	]]>
+	</ui-access>
+
+	<files>
+		
+		<file source="description.html" destination="$ExtensionSpecificEMStore" file-type="ordinary" />
+		<file source="logo.png" destination="$ExtensionSpecificEMStore" file-type="ordinary" />
+		<file source="calendarEx.gif" destination="$ExtensionSpecificEMStore" file-type="ordinary" />
+		<file source="calendar_extension.html" destination="$dreamweaver/configuration/commands/calendar/calendar_extension.html" file-type="ordinary" />
+		<file source="calendarEx.gif" destination="$dreamweaver/configuration/commands/calendar/" file-type="ordinary" />
+	</files>
+
+	<!-- Changes for Dreamweaver UI -->
+	<configuration-changes>
+		<menu-insert appendTo="DWMenu_Commands">
+			<menuitem id="Calendar_Extension" name="Calendar Extension" file="commands/calendar/calendar_extension.html" />
+		</menu-insert>
+	</configuration-changes>
+
+</macromedia-extension>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macromedia-extension
+	name="Update Sample"
+	version="1.0"
+	>
+
+	<!-- Describe the author -->
+	
+	<author name="Adobe System Inc." />
+
+	<!-- List the required/compatible products -->
+	
+	<products>
+		<product name="Dreamweaver" version="6" primary="true" /> 
+	</products> 
+
+	<!-- Describe the extension -->
+	<description>
+	<![CDATA[
+	Description is here:
+	This is a sample extension.
+	It displays a javascript alert that says "Hello, World!(version 1.0)".<br>
+	]]>
+	</description>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+
+	<ui-access>
+	<![CDATA[
+	Ui-access is here:
+	Access from the 'Update Sample' entry in the Commands menu.
+	]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	
+	<update method="directlink" url="http://help.adobe.com/en_US/extensionmanager/cs/using/updatesample.xml" />
+
+	<files>
+		<file name="updatesample.htm" destination="$dreamweaver/configuration/commands" />
+	</files>
+
+	<!-- Describe the changes to the configuration -->
+	
+	<configuration-changes>
+		
+		<!-- Add an entry to the commands menu -->
+
+		<menu-insert appendTo="DWMenu_Commands">
+			<menuitem name="Update Sample" file="Commands/updatesample.htm" id="updatesample" />
+		</menu-insert>
+	
+	</configuration-changes>
+</macromedia-extension>

@@ -1,0 +1,59 @@
+TAGS:
+toolkit designer artistic automatisation generator publishing book-designer auto-designer pattern motif mim.Armand 3Dots design effects extention graphics plug-in textures
+
+Summury:
+
+In-Design Toolkit is a collection of tools to help you design better and make prettier documents for publishing on-line or offset printing
+
+
+Release notes:
+This is the first release and still in beta.
+Please let me know if you found any bug or issue!
+=====================
+Known Issues:
+1. Ctrl + Tab between documents (if there is more than one document open): You should close and re-open the plugin window, otherwise it may behave in a wierd way! (planned to get fixed in future releases)
+2. Transparent images are gone in Lite versions for some resean! (a patch will be out soon but transparency in Tiff format is because of a non-standard Adobe implementation of this format, I don't think if I can do anything about it!);
+3. Page selection: images are imported in wrong pages! (This is fixed already!)
+4. tooltips aren't disabled sometimes even though the option in settings tab is changed! (will be fixed soon)
+5. ... you tell me!
+
+
+
+Instalation Notes:
+Just Double click on the file and let Adobe Extension Manager do the rest of the job! after the Installation was done you can find the extension inside the Scripts Panel (there you should open the file which is called: "Open me"!)
+--------------------------------------------------------------------------------------
+To Open the scripts panel:
+(Alt + Ctrl + F11) or Window > Utilities > Scripts
+Then in the "Application" folder find IDTK folder!
+
+
+
+folder:
+$indesign/Scripts
+
+Description:
+<b>Hi there and Welcome to IDTK </b>( Indesign Toolkit )
+    <b>In-Design Tool-kit</b> is a new and unique In-Design extension, we have a lot of ideas of new tools and options that will be added in future releases (with your help and support!).
+    In this release you can use this plug-in to create <b>unique auto-generated motifs and patters</b> to create a visually and aesthetically appealing document, be a book, a journal or a simple resume! This product is created with artists for creative people who use Creative Suite products (In-Design in particular).
+    This extension will not only do the job of a graphic-designer for you but probably even more (not that you won't need designers anymore!) because it creates a unique visual for each single page of your document making it feels like a graphic-designer spent hours of work designing each single page of your document, but all you need to do is a few clicks of a mouse!
+    I made this plug-in with love and I hope you enjoy it as much as I did working (HARD!) to create it, please support the future releases buy purchasing the paid version if you found it useful! thx, ;)<br>
+    At end you can watch a video of how it works at <b><a href="http://www.youtube.com/playlist?list=PLolKuEWfip-G82ZplIyGxYtOSgM6gnIv4">this linke</a></b>
+<p>PS2: Always save your document and make a backup of your project before opening a script!</p>
+
+
+
+
+http://www.youtube.com/playlist?list=PLolKuEWfip-G82ZplIyGxYtOSgM6gnIv4
+
+Installation instructions*:
+Describe where users can find your product after installation, E.g. 'Navigate to Windows -> Extensions to find MyExtension' or 'Go to your Downloads folder to find MyProduct'
+
+
+
+
+
+Note to approver:
+Hi!
+After Installation please go to Scripts panel and you should be able to find it under the folder named "IDTK" inside the "Application" folder (still in the script panel)
+
+Thx a lot and have a good day :)

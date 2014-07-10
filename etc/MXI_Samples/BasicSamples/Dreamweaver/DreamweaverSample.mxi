@@ -1,0 +1,51 @@
+﻿<macromedia-extension
+	name="Hello, World"
+	version="1.0"
+	type="Command">
+
+	<!-- Describe the author -->
+	
+	<author name="Adobe" />
+
+	<!-- List the required/compatible products -->
+	
+	<products>
+		<product name="Dreamweaver" version="6" primary="true" /> 
+	</products> 
+
+	<!-- Describe the extension -->
+	
+	<description>
+	<![CDATA[
+	This is a sample extension.<br><br>
+	It displays a javascript alert that says "Hello, World!".
+	]]>
+	</description>
+
+	<!-- Describe where the extension shows in the UI of the product -->
+
+	<ui-access>
+	<![CDATA[
+	Access from the 'Hello, World' entry in the Commands menu.
+	]]>
+	</ui-access>
+
+	<!-- Describe the files that comprise the extension -->
+	
+	<files>
+		<file name="Sample.htm" destination="$dreamweaver/configuration/commands" />
+	</files>
+
+	<!-- Describe the changes to the configuration -->
+	
+	<configuration-changes>
+		
+		<!-- Add an entry to the commands menu -->
+
+		<menu-insert insertAfter="DWMenu_Commands_SortTable" skipSeparator="true">
+			<menuitem name="Hello, World" file="Commands/Sample.htm" id="Sample_HelloWorld" />
+			<separator id="Sample_HelloWorld_Separator" />
+		</menu-insert>
+	
+	</configuration-changes>
+</macromedia-extension>
