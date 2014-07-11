@@ -1,8 +1,33 @@
-What?! (What is this?!)
+What?! (What is this?!) 
 IDTK (In-Design Tool-Kit) is an extension for Adobe InDesign CS.
-As the name suggests, it is intended to be a “Tool-Kit”! But right now it does just one thing! But something really cool! We just released the beta version of one of the tools (modules) of the toolkit which is called “Robot”!
-We call it Robot because it is like a Robot! A designer robot! It’s a worker robot who designs graphical elements for your pages!
-You just need to tell the module what you want and it will generate customized, beautiful patterns and motifs tailored for your document! But wait! Anybody can do that! (Well c’mon! not anybody! But a good graphic designer can) But it’s not all it can do for you! In fact it works on every single page of your document and makes a unique version of the selected patterns for each and every single page of your document (you can select which pages too), something normal “human” graphic designers just can’t do (or if they do, they will need days and weeks and… even months if you have hundreds of hundreds of pages!), so each page will be different than the others! Because otherwise that’d be boring! Wouldn’t it? Whatever! Just let the Robot help you!
-PS: Well! We didn’t talk much about the name since it’s supposed be a kit with lot’s (or a few at least) tools, not a tool-box with just one tool in it! … Yeah! Well! The idea behind the name is that we’re going to build up on it gradually! Adding more tools and features, to make it more like a real tool-kit for page-designers and publishers.
+As the name suggests, it is intended to be a "Tool-Kit"! But right now it does just one thing! But something really cool! We just released the beta version of one of the tools (modules) of the toolkit which is called “Robot”!
+We call it Robot because it is like a Robot! A designer robot! It's a worker robot who designs graphical elements for your pages!
+You just need to tell the module what you want and it will generate customized, beautiful patterns and motifs tailored for your document! But wait! Anybody can do that! (Well common! not anybody! But a good graphic designer can) But it's not all it can do for you! In fact it works on every single page of your document and makes a unique version of the selected patterns for each and every single page of your document (you can select which pages too), something normal "human" graphic designers just can't do (or if they do, they will need days and weeks and… even months if you have hundreds of hundreds of pages!), so each page will be different than the others! Because otherwise that'd be boring! Wouldn't it? Whatever! Just let the Robot help you!
+PS: Well! We didn't talk much about the name since it's supposed be a kit with lots (or a few at least) tools, not a tool-box with just one tool in it! … Yeah! Well! The idea behind the name is that we're going to build up on it gradually! Adding more tools and features, to make it more like a real tool-kit for page-designers and publishers.
 We already have lots of ideas and we are impatient to start working on them but it all depends on how the community receives our work! We worked really hard and built this tool up from the ground with pure love and we need your support to continue doing so!
+
+
+How?!
+- How it works? With less than 5000 lines of code written in 5-6 different programming languages, it uses mathematical algorithms to generate (random) patterns and motifs in an real-time (on-air) fashion for your documents!
+- How to install it?! Just download the file and double-click on it and let the Adobe Extension Manager do the rest of job! It will automatically install the product and will also inform you in it's window if there is an update available!
+- How to run it?! After installation, all you need to do is to open the Scripts panel to access the extension! (Alt + Ctrl + F11), then under the application folder look for IDTK folder, in that folder double-click the file named "OPEN_ME"!
+- How to use it?! Usage of the plug-in is pretty easy but you can check out these videos as well, Please just remember to save and make a backup of your project before running any script (including ours)!
+
+
+Why?!
+This project was an answer to a real need! I started writing it to help myself designing the print version of my thesis at university Paris 13 & 8, I did the same thing at my previous year of study in Toulouse as well but that time I did it the CMD way (that means nobody else than me would be able to use it, and I would forgot how to use it after a while too!), so this time I decided to work harder, doing it the hard way but making it available to my-future-self and other designers, page-designers and publishers too! Voila! So here we go! ;)
+
+
+Who?!
+My name is mim.Armand, I'm an artist, inventor and developer! I do a lot of different stuff not necessarily related to each-other (Painting, making electronic circuits, cooking , writing ... !), that's because I do all the time what I love to do at that time! It makes it hard to live really but make it as much enjoyable too! :))
+
+Where?!
+I don't believe in borders! but it's an international product! It was made in three countries! Made in France, Iran and USA! :D
+
+
+When?!
+I started writing the first line of code at 21 May 2014, I shut myself in for almost 3-4 weeks, not going out except to get cigarettes and/or grocery! the Plug-in was ready by 21 June and I submitted the first beta release to Adobe Exchange site by 8 July! (don't get me wrong! dates can't be that exact!) - It was my first time trying to write a code for Adobe and using Adobe stuff and technologies (which I hated at the beginning but fell in love at the end!)
+
+WoW!
+I know it's not that big of a deal! it's just important for us because we worked hard on it! if you like it and you'd like to see future releases coming, please support us! :)
 
