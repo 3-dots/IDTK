@@ -1,0 +1,107 @@
+body {
+	margin-top: 42px;
+}
+#idtk-top-nav{
+	border-bottom: 3px solid #ffd800;
+}
+#header-version{
+	background-color: darkcyan;
+}
+#idtk-what, #idtk-how{
+	background-color: darkcyan;
+    font-variant: small-caps;
+    margin: -42px auto 45px;
+    text-align: justify;
+    text-decoration: overline;
+    text-indent: 15px;
+}
+#idtk-how{
+	background-color: firebrick;
+	color:darksalmon;
+}
+#idtk-what p, #idtk-how p{
+	font-size: 1em;
+}
+#idtk-what p::first-letter, #idtk-how p::first-letter{
+	font-size: 1.2em;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+#idtk-what code , #idtk-how code{
+    background-color: darkslategrey;
+    border-radius: 0;
+    color: darkcyan;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 0px 3px 4px;
+}
+#idtk-how code{
+	background-color: darksalmon;
+	color: firebrick;
+}
+#nav_lil_icon {
+	bottom: 0;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+}
+#logo_top {
+	margin: 51px auto;
+	width: 51%;
+}
+#big_title {
+	font-size: 4.2em;
+	font-weight: 900;
+	margin: -6px auto;
+	text-align: center;
+}
+#sml_title {
+	font-size: 1.29em;
+	font-weight: 600;
+	margin: -8px auto;
+	text-align: center;
+	white-space: nowrap;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+	#logo_top {
+		width: 100%;
+		margin: 6% 3%;
+	}
+	#big_title {
+		display: inline;
+	    float: left;
+	    font-size: 9em;
+	    left: 333px;
+	    position: relative;
+	    top: -180px;
+	}
+	#sml_title {
+		font-size: 2.76em;
+	    position: relative;
+	    top: -60px;
+	    display: inline;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {
+}
+
+
+
+
+
+
+
+
+
+
