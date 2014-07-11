@@ -1,0 +1,14 @@
+html, body{
+	background-color: #ffd800;
+}
+.big_title{
+	color: black;
+	font-family: fantasy;
+	font-size: 18em;
+	margin: -49px 0 0 -10px;
+	padding: 0;
+	font-weight: 900;
+	clear: left;
+	position: relative;
+	display: inline;
+}
