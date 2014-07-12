@@ -1,13 +1,21 @@
 body {
 	margin-top: 42px;
 }
+*::selection{
+	background: rgba(0, 0, 0, 0.3);
+	color: rgba(255, 255, 255, 0.6);
+}
+*::-moz-selection{
+	background: rgba(0, 0, 0, 0.3);
+	color: rgba(255, 255, 255, 0.6);
+}
 #idtk-top-nav{
 	border-bottom: 3px solid #ffd800;
 }
 #header-version{
 	background-color: darkcyan;
 }
-#idtk-what, #idtk-how{
+.idtk_sections{
 	background-color: darkcyan;
     font-variant: small-caps;
     margin: -42px auto 45px;
@@ -15,7 +23,18 @@ body {
     text-decoration: overline;
     text-indent: 15px;
 }
-#idtk-how{
+.idtk_sections *{
+	background: rgba(0, 0, 0, 0.06);
+}
+
+.idtk_sections h1{
+	display: inline;
+    font-weight: 900;
+    position: relative;
+    top: -6px;
+    text-decoration: overline;
+}
+#idtk-how, #idtk-who, #idtk-when{
 	background-color: firebrick;
 	color:darksalmon;
 }
@@ -62,6 +81,43 @@ body {
 	text-align: center;
 	white-space: nowrap;
 }
+.side_icns{
+	background: url("../img/mim_yellow_icons.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+    display: block;
+    float: left;
+    height: 88px;
+    margin: 0 9px 0 0;
+    width: 88px;
+}
+#icn_what{
+	background-position: -88px 0;
+}
+#icn_how{
+	background-position: -352px 0;
+}
+#icn_why{
+	background-position: -792px 0;
+}
+#icn_who{
+	background-position: -264px -88px;
+}
+#icn_where{
+	background-position: -792px -88px;
+}
+#icn_when{
+	background-position: -616px 0;
+}
+#icn_wow{
+	background-position: -792px 0;
+}
+#idtk_footer{
+	width: 100%;
+	height: 66px;
+	display: block;
+	background: darkred;
+	padding: 30px
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -90,10 +146,27 @@ body {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:992px) {
+
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width:1200px) {
+
+
+
+	.idtk_sections{
+	background-color: darkcyan;
+    font-variant: small-caps;
+    margin: -42px auto 45px;
+    text-align: justify;
+    text-decoration: overline;
+    text-indent: 15px;
+    padding-right: 45%;
+}
+
+
+
 }
 
 
