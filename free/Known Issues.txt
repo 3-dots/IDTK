@@ -1,4 +1,0 @@
-1. Ctrl + Tab between documents (if there is more than one document open): You should close and re-open the plugin window, otherwise it may behave in a wierd way! (planned to get fixed in future releases)
-2. Transparent images are gone in Lite versions for some resean! (a patch will be out very soon! sorry!);
-3. Page selection: images are imported in wrong pages! (This is fixed now!)
-4. tooltips aren't disabled sometimes even though the option in settings tab is changed! (will be fixed soon)

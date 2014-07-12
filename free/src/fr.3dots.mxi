@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<macromedia-extension id="fr.3dots" name="InDesign Toolkit (free)" version="0.1.0" icon="idtk.png" show-files="false">
-  <description href="http://3dots.fr/ID-ToolKit/description.html" source="idtk_description.html"><![CDATA[
+<macromedia-extension id="fr.3dots" name="InDesign Toolkit (free)" version="0.1.1" icon="idtk.png" show-files="false">
+  <description href="http://3dots.fr/ID-ToolKit/index.html" source="idtk_description.html"><![CDATA[
     <b>Hi there and Welcome to IDTK </b>( Indesign Toolkit )
+    <b>PLEASE NOTE! This version only supports 64bit Windows and an English installation of InDesign CS6! ALSO YOU HAVE TO SELECT ALL USERS if extension manager asked you otherwise it will install it in the wrong place!</b>
     <b>In-Design Tool-kit</b> is a new and unique In-Design extension, we have a lot of ideas of new tools and options that will be added in future releases (with your help and support!).
     In this release you can use this plug-in to create <b>unique auto-generated motifs and patters</b> to create a visually and aesthetically appealing document, be a book, a journal or a simple resume! This product is created with artists for creative people who use Creative Suite products (In-Design in particular).
     This extension will not only do the job of a graphic-designer for you but probably even more (not that you won't need designers anymore!) because it creates a unique visual for each single page of your document making it feels like a graphic-designer spent hours of work designing each single page of your document, but all you need to do is a few clicks of a mouse!
@@ -55,20 +56,24 @@
 ]]></license-agreement>
   <author name="mim.Armand"/>
   <products>
-    <product version="8.0" primary="true" name="InDesign" platform="win"/>
-    <product version="8.0" primary="true" name="InDesign32" platform="win"/>
-    <product version="8.0" primary="true" name="InDesign64" platform="win"/>
+    <product version="8" maxversion="8" primary="true" name="InDesign" platform="win"/>
+    <product version="8" maxversion="8" primary="true" name="InDesign32" platform="win"/>
+    <product version="8" maxversion="8" primary="true" name="InDesign64" platform="win"/>
+    <product version="8" maxversion="8" primary="true" name="InDesign" platform="win" bit="64"/>
+    <product version="8" maxversion="8" primary="true" name="InDesign32" platform="win" bit="64"/>
+    <product version="8" maxversion="8" primary="true" name="InDesign64" platform="win" bit="64"/>
   </products>
   <ui-access>
     <![CDATA[
         You can run this extension by choosing menue:<br>
         Window > Utilities > Scripts (Alt + Ctrl + F11) > and then:<br>
-        Find InDesign Toolkit in the script panel!
+        Find IDTK folder in the script panel! (under the User folder)<br>
+        Then double click the file called: "OPEN_ME"
     ]]>
   </ui-access>
-  <update method="directlink" url="http://3dots.fr/ID-ToolKit/free/latest/updateCheck.xml" />
+  <update method="directlink" url="https://raw.githubusercontent.com/3-dots/IDTK/master/free/updateCheck.xml" />
   <files>
-    <file source="IDTK/" destination="$indesign/Scripts/Scripts Panel/" products="InDesign,InDesign,InDesign32,InDesign64" platform="win"/>
+    <file source="IDTK/" destination="$userroamingfolder/Adobe/InDesign/Version 8.0/en_US/Scripts/Scripts Panel/" products="InDesign,InDesign32,InDesign64" platform="win"/>
     <file source="idtk.png" destination="$ExtensionSpecificEMStore" file-type="ordinary"/>
     <file source="idtk_description.html" destination="$ExtensionSpecificEMStore" file-type="ordinary"/>
   </files>
