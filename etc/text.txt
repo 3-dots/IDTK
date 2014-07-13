@@ -3,33 +3,31 @@ toolkit designer artistic automatisation generator publishing book-designer auto
 
 Summury:
 
-In-Design Toolkit is a collection of tools to help you design better and make prettier documents for publishing on-line or offset printing
+In-Design Toolkit is a collection of tools to help you design better and make prettier documents for publishing on-line or offset printing. Please refer to http://3dots.fr/ID-ToolKit for more info.
 
 
 Release notes:
 This is the first release and still in beta.
 Please let me know if you found any bug or issue!
 =====================
-Known Issues:
-1. Ctrl + Tab between documents (if there is more than one document open): You should close and re-open the plugin window, otherwise it may behave in a wierd way! (planned to get fixed in future releases)
-2. Transparent images are gone in Lite versions for some resean! (a patch will be out soon but transparency in Tiff format is because of a non-standard Adobe implementation of this format, I don't think if I can do anything about it!);
-3. Page selection: images are imported in wrong pages! (This is fixed already!)
-4. tooltips aren't disabled sometimes even though the option in settings tab is changed! (will be fixed soon)
-5. ... you tell me!
+Please refer to http://3dots.fr/ID-ToolKit/idtk_description for more info.
 
 
 
 Instalation Notes:
-Just Double click on the file and let Adobe Extension Manager do the rest of the job! after the Installation was done you can find the extension inside the Scripts Panel (there you should open the file which is called: "Open me"!)
---------------------------------------------------------------------------------------
-To Open the scripts panel:
-(Alt + Ctrl + F11) or Window > Utilities > Scripts
-Then in the "Application" folder find IDTK folder!
+1. Download the In-Design Tool-kit extension either from Adobe exchange website or Extension's website.
+
+2. Double-click on the .zxp file and let the extension-manager install the extension, but:
+
+3. IMPORTANT! When/if extension manager asked you if you want to install this extension for Only Me or All Users, please select All Users, otherwise it will be installed in a directory which is not accessible by default to Adobe In-Design scripts panel (This is because of an issue/limitation of the available default addresses/paths in adobe extension packages which we weren't aware of, but in future releases we will try to fund a work-around for it) If you selected Only Me you can always un-install/ remove the extension and re-install it again
+
+4. After Installation you may need to close and re-open InDesign (if it was open during installation)
+
+5. You can also update the extension by selecting it in the extension manager window and checking if an update is available (In that case an update button will appear right beside the Remove button.
+
+-Please refer to http://3dots.fr/ID-ToolKit/idtk_description for more info.
 
 
-
-folder:
-$indesign/Scripts
 
 Description:
 <b>Hi there and Welcome to IDTK </b>( Indesign Toolkit )
@@ -39,6 +37,8 @@ Description:
     I made this plug-in with love and I hope you enjoy it as much as I did working (HARD!) to create it, please support the future releases buy purchasing the paid version if you found it useful! thx, ;)<br>
     At end you can watch a video of how it works at <b><a href="http://www.youtube.com/playlist?list=PLolKuEWfip-G82ZplIyGxYtOSgM6gnIv4">this linke</a></b>
 <p>PS2: Always save your document and make a backup of your project before opening a script!</p>
+printing.<br>
+Please refer to http://3dots.fr/ID-ToolKit for more info!
 
 
 
@@ -54,6 +54,13 @@ Describe where users can find your product after installation, E.g. 'Navigate to
 
 Note to approver:
 Hi!
-After Installation please go to Scripts panel and you should be able to find it under the folder named "IDTK" inside the "Application" folder (still in the script panel)
++ Due to Adobe exchange zxp file-size limitation (15mb) I couldn't embed Java even in 64-bit version! (it would've been 36 mb), so you need to install latest version Java if you don't have it already! thx (http://java.com/en/download/index.jsp) (Java embedded version could be found here: )
+- During the installation when it asks for user-scope Please select "All users" (full explanation here: http://3dots.fr/ID-ToolKit/idtk_description) otherwise it won't be installed in the right directory
+- Also in this release, the extension only works in 64 bit versions of Windows OS (it needs Java VM embeddable just in 64-bit systems but I'll add the mechanisms to guide the users how to install Java in case of absent and will release the 32-bit too then) but due to a bug (I guess! is it a known bug?) in Adobe extension manager if I limit the package to 64-bit systems it won't let it to be installed even in 64 bit systems! so I just left it like that for know but I explained in package's descriptions and instructions about this (more explanation here: http://3dots.fr/ID-ToolKit/idtk_description)
+- After installation you'll find the Folder "IDTK" under the "user"'s folder in the Scripts panel (alt + ctrl + F11), please double click on the file called "OPEN_ME.jsx" in this folder and the extension UI will open.
+- I tested the package on two systems (Windows Vista and 8 64) with ID CS6 and it works very well.
+- This is a beta and work in progress yet, but I need my users feedback to continue.
 
 Thx a lot and have a good day :)
+mim,
+3dots.fr/id-toolkit/
