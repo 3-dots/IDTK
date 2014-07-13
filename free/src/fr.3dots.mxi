@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macromedia-extension id="fr.3dots" name="InDesign Toolkit (free)" version="0.1.1" icon="idtk.png" show-files="false">
   <description href="http://3dots.fr/ID-ToolKit/index.html" source="idtk_description.html"><![CDATA[
+    Please note! This is a 64bit version! 
+    ===============================================================================================================
     <b>Hi there and Welcome to IDTK </b>( Indesign Toolkit )
     <b>PLEASE NOTE! This version only supports 64bit Windows and an English installation of InDesign CS6! ALSO YOU HAVE TO SELECT ALL USERS if extension manager asked you otherwise it will install it in the wrong place!</b>
     <b>In-Design Tool-kit</b> is a new and unique In-Design extension, we have a lot of ideas of new tools and options that will be added in future releases (with your help and support!).
