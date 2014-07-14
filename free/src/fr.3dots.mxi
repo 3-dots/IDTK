@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<macromedia-extension id="fr.3dots" name="InDesign Toolkit (free)" version="0.1.2" icon="idtk.png" show-files="false" requires-restart="true" plugin-manager-type="current-user">
+<macromedia-extension id="fr.3dots" name="InDesign Toolkit (free)" version="0.1.2" icon="idtk.png" show-files="false" requires-restart="true" force-quit="true">
   <description href="http://3dots.fr/ID-ToolKit/index.html" source="idtk_description.html"><![CDATA[
     <b>Please note! This plug-in needs Java! If you don't have Java installed already, install it please from: java.com/download</b>
     <br>
@@ -74,8 +74,8 @@
   </ui-access>
   <update method="directlink" url="https://raw.githubusercontent.com/3-dots/IDTK/master/free/updateCheck.xml" />
   <files>
-    <file source="startup_script/IDTK.jsx" destination="$startupscripts/Adobe InDesign" products="InDesign,InDesign32,InDesign64" platform="win"/>
-    <file source="IDTK/" destination="$userhomefolder/" products="InDesign,InDesign32,InDesign64" platform="win"/>
+    <file source="startup_script/IDTK.jsx" destination="$startupscripts/Adobe InDesign" platform="win"/>
+    <file source="IDTK/" destination="$userhomefolder/" platform="win"/>
     <file source="idtk.png" destination="$ExtensionSpecificEMStore" file-type="ordinary"/>
     <file source="idtk_description.html" destination="$ExtensionSpecificEMStore" file-type="ordinary"/>
   </files>
