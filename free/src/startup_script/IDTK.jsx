@@ -7,8 +7,7 @@ Release date of this version:
  */
 
 #targetengine "session"
-var idtkFileToOpen = File('../IDTK/IDTK.jsxbin')
-
+var idtkFileToOpen = File('../IDTK/IDTK.jsxbin');
 removeMenuIdtk();
 if(idtkFileToOpen.exists){
 	addMenuIdtk();
@@ -30,7 +29,11 @@ function callRobot(){
 	#target "InDesign";
 	#targetengine 'MySessionScript';
 	app.scriptPreferences.version = 8.0;
-	app.doScript(idtkFileToOpen);
+	try {
+        app.doScript(idtkFileToOpen);
+    } catch (err) {
+        alert('You need to save your document before running the extension!\n\nOtherwise something else gone wrong!\nIf saving the document didn\'t solve the problem, please accept our apology for the inconvenient and let us know about the issue by providing the following information!\n\n\nError Details:\n' + err, 'Mayday, Mayday, Mayday!', true);
+    }
 }
 
 function removeMenuIdtk(){
