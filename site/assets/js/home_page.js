@@ -5,10 +5,6 @@ jQuery(document).ready(function($) {
         $(element).waypoint(function() {
             console.log(mainPageSections[index].selector);
             topMenuFx(index);
-        }, {
-            offset: function() {
-                return $(this).height();
-            }
         })
     })
     $('#idtk-who').waypoint(function() {});
