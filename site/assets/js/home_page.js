@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
     var topMenuItems = [$('#topMenu01'), $('#topMenu02'), $('#topMenu03'), $('#topMenu04'), $('#topMenu05'), $('#topMenu06'), $('#topMenu07')];
     mainPageSections.forEach(function(element, index) {
         $(element).waypoint(function() {
-            console.log(mainPageSections[index].selector);
+            // console.log(mainPageSections[index].selector);
             topMenuFx(index);
         })
     })
