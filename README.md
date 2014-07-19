@@ -6,5 +6,3 @@
 > Please visit [Plugin's web-site](http://3Dots.fr/ID-ToolKit/) for more information (wip!) --> adding bunch of new effects right now! stay tuned! :)
 >
 > Thx, [mim](http://Armand.eu) ;)
-
-PS: my website is under construction right now!
