@@ -7,14 +7,17 @@ Release date of this version:
  */
 
 #targetengine "session"
-var idtkFileToOpen = File('../IDTK/IDTK.jsxbin');
+var robotFileToOpen = File('../IDTK/ROBOT/robot.jsxbin');
+var datanFileToOpen = File('../IDTK/DATAN/datan.jsxbin');
 removeMenuIdtk();
-if(idtkFileToOpen.exists){
+if(robotFileToOpen.exists){
 	addMenuIdtk();
 }
 function addMenuIdtk(){
-    var idtkScriptAction = app.scriptMenuActions.add("☢ - Robot !   ");
-    var idtkEventListener = idtkScriptAction.eventListeners.add("onInvoke", callRobot, false);
+    var robotCall = app.scriptMenuActions.add("☢ - Robot !   ");
+    var datanCall = app.scriptMenuActions.add("∞ - DataN !   ");
+    var robotEventListener = robotCall.eventListeners.add("onInvoke", callRobot, false);
+    var datanEventListener = datanCall.eventListeners.add("onInvoke", callDatan, false);
     try{
     	var idtkScriptMenu = app.menus.item("$ID/Main").submenus.item("★ IDTK");
     	idtkScriptMenu.title;
@@ -22,7 +25,8 @@ function addMenuIdtk(){
     catch (myError){
     	var idtkScriptMenu = app.menus.item("$ID/Main").submenus.add("★ IDTK");
     }
-    var idtkScriptMenuItem = idtkScriptMenu.menuItems.add(idtkScriptAction);
+    var idtkScriptMenuItem = idtkScriptMenu.menuItems.add(robotCall);
+    var idtkScriptMenuItem = idtkScriptMenu.menuItems.add(datanCall);
 }
 
 function callRobot(){
@@ -30,15 +34,26 @@ function callRobot(){
 	#targetengine 'MySessionScript';
 	app.scriptPreferences.version = 8.0;
 	try {
-        app.doScript(idtkFileToOpen);
+        app.doScript(robotFileToOpen, ScriptLanguage.JAVASCRIPT, undefined, UndoModes.ENTIRE_SCRIPT, "IDTK ☢ Robot!");
     } catch (err) {
-        alert('You need to save your document before running the extension!\n\nOtherwise something else gone wrong!\nIf saving the document didn\'t solve the problem, please accept our apology for the inconvenient and let us know about the issue by providing the following information!\n\n\nError Details:\n' + err, 'Mayday, Mayday, Mayday!', true);
+        alert('You need to save your document before running the extension!\n\n\nIf saving the document didn\'t solve the problem, please accept our apology for the inconvenient and let us know about the issue by providing the following information!\n\n\nError Details:\n' + err, 'Mayday, Mayday, Mayday!', false);
+    }
+}
+function callDatan(){
+    #target "InDesign";
+    #targetengine 'MySessionScript';
+    app.scriptPreferences.version = 8.0;
+    try {
+        app.doScript(datanFileToOpen, ScriptLanguage.JAVASCRIPT, undefined, UndoModes.ENTIRE_SCRIPT, "IDTK ∞ DataN!");
+    } catch (err) {
+        alert('You need to save your document before running the extension!\n\nIf saving the document didn\'t solve the problem, please accept our apology for the inconvenient and let us know about the issue by providing the following information!\n\n\nError Details:\n' + err, 'Mayday, Mayday, Mayday!', false);
     }
 }
 
 function removeMenuIdtk(){
 	try{
 		app.scriptMenuActions.item("☢ - Robot !   ").remove();
+        app.scriptMenuActions.item("∞ - DataN !   ").remove();
 	}
 	catch(myError){}
 	try{
